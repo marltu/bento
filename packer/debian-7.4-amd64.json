@@ -1,7 +1,7 @@
 {
   "variables": {
     "chef_version": "provisionerless",
-    "mirror": "http://cdimage.debian.org/debian-cd"
+    "mirror": "http://ftp.lt.debian.org/debian-cd"
   },
   "builders": [
     {
@@ -102,6 +102,7 @@
         "scripts/common/vagrant.sh",
         "scripts/common/vmtools.sh",
         "scripts/common/chef.sh",
+        "scripts/debian/puppet.sh",
         "scripts/debian/cleanup.sh",
         "scripts/common/minimize.sh"
       ],
